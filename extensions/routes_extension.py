@@ -3,7 +3,7 @@ from apps.api.user.user import user as user_api
 
 from flask import Flask
 
-def register_routes(app: Flask):
+def register_routes(app: Flask) -> None:
     """
     Register routes with blueprint
     """
